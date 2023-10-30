@@ -1,0 +1,133 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	    ,{
+            "path" : "pages/me/me",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/find/find",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/contact/contact",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "subpages/chat2/chat2",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpages/news/news",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpages/chat/chat",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	
+	
+	
+	"tabBar": {
+		  "color": "#7A7E83",
+		  "selectedColor": "#3cc51f",
+		  "borderStyle": "black",
+		  "backgroundColor": "#ffffff",
+		  "list": [
+			{
+			  "pagePath": "pages/index/index",
+			  "iconPath": "static/tabbar-icons/talkbuble.png",
+			  "selectedIconPath": "static/tabbar-icons/talkbuble_selected.png",
+			  "text": "微信"
+			},
+			{
+			  "pagePath": "pages/contact/contact",
+			  "iconPath": "static/tabbar-icons/contact.png",
+			  "selectedIconPath": "static/tabbar-icons/contact_selected.png",
+			  "text": "通讯录"
+			},
+			{
+			  "pagePath": "pages/find/find",
+			  "iconPath": "static/tabbar-icons/find.png",
+			  "selectedIconPath": "static/tabbar-icons/find_selected.png",
+			  "text": "发现"
+			},
+			{
+			  "pagePath": "pages/me/me",
+			  "iconPath": "static/tabbar-icons/me.png",
+			  "selectedIconPath": "static/tabbar-icons/me_selected.png",
+			  "text": "我"
+			}
+		  ]
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		
+	"uniIdRouter": {},
+	"subPackages": [
+    {
+      "root": "subpages",
+      "pages": [
+        {
+          "path": "news/news",
+          "style": {
+            "navigationBarTitleText": "新闻中心",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "chat/chat",
+          "style": {
+            "navigationBarTitleText": "与小姐姐聊天",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
